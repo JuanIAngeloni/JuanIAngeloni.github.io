@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #cfe6f0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    resize: both;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    min-width: 1600px;
+    min-height: 1700px;
+    background: rgb(255, 255, 255);
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.container .left_Side {
+    position: relative;
+    background: #003147;
+    padding: 30px;
+}
+
+.perfilTexto {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+    align-items: center;
+}
+
+.perfilTexto h2 {
+    font-size: 2.4em;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+
+.perfilTexto h2 span {
+    font-size: 0.8em;
+    font-weight: 400;
+    color: rgb(169, 163, 163);
+    letter-spacing: 1px;
+
+}
+
+
+.title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: start;
+    letter-spacing: 1px;
+    padding: 31px;
+    position: relative;
+
+}
+
+.ContactoInfo {
+    padding-top: 30px;
+}
+
+.ContactoInfo .tituloContacto {
+    text-align: center;
+}
+
+.ContactoInfo ul {
+    position: relative;
+}
+
+.ContactoInfo ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    letter-spacing: 0.9px;
+    font-size: 1em;
+}
+
+.ContactoInfo ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: rgb(97, 154, 252)
+}
+
+.ContactoInfo ul li {
+    color: #fff;
+
+}
+
+.Educacion {
+    position: relative;
+}
+
+
+
+.Educacion ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    color: #fff;
+    letter-spacing: 0.9px;
+    font-size: 1em;
+    right: 30px;
+    width: 320px;
+    text-align: center;
+}
+
+.Educacion ul li .icon {
+    display: inline-block;
+    width: 40px;
+    font-size: 18px;
+    color: rgb(84, 235, 232)
+}
+
+.Educacion h3 {
+    position: relative;
+    text-align: center;
+}
+
+.Educacion h4 {
+    left: 40;
+    font-size: large;
+}
+
+.Educacion title {
+
+    left: 40;
+    font-weight: 500;
+    right: 40;
+}
+
+.Educacion h4 .icon {
+
+    position: relative;
+    right: 1px;
+    top: 10px;
+
+
+
+}
+
+.Educacion h5 {
+    position: relative;
+    left: 100px;
+    font-size: 1em;
+    color: rgba(220, 208, 208, 0.719);
+
+}
+
+.Educacion h6 {
+    color: rgba(220, 208, 208, 0.719);
+    font-weight: 450;
+    letter-spacing: 0.7px;
+    font-size: 0.8em;
+    position: relative;
+    left: 15px;
+
+}
+
+.Lenguaje ul li .icon {
+    display: inline-block;
+    width: 40px;
+    font-size: 18px;
+    color: rgb(108, 226, 140)
+}
+
+.Educacion h6 {
+    color: rgba(220, 208, 208, 0.719);
+    font-weight: 450;
+    letter-spacing: 0.7px;
+    font-size: 0.8em;
+    position: relative;
+
+    left: 15px;
+
+}
+
+.perfilTexto .imgBx {
+    position: relative;
+    width: 355px;
+    height: 355px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.perfilTexto img {
+    max-width: 353px;
+    max-height: 353px;
+    object-fit: cover;
+
+}
+
+.container .right_Side {
+    position: relative;
+    background: #fff;
+    padding: 40px;
+    margin: 0 !important;
+}
+
+.title2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #004f74;
+    background-color: #cfe6f0;
+    text-align: center;
+
+}
+
+.p1y2 {
+    font-size: 25px;
+    padding: 40px;
+    font-weight: 500;
+    color: #004f74;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.conocimientos {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 500;
+    color: #004f74;
+    padding-top: 20px;
+    border-top: 3px solid #004f74 !important;
+
+}
+
+/*ACORDION GENERAL*/
+.myAccordion {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #004f74;
+
+
+}
+
+.accordion-item {
+    border: 1px solid !important;
+    border-color: #003147 !important;
+    background-color: #ebebeb !important;
+}
+
+.accordion .accordion-button {
+    background-color: rgb(241, 250, 254);
+
+
+}
+
+div.accordion .icon {
+    margin-left: 0px !important;
+
+    width: 1081px;
+    font-size: 40px;
+    color: #29bbff;
+    text-align: center;
+}
+
+.accordion-item .fa-html5 {
+    color: rgb(196, 127, 0);
+}
+
+.accordion-item .fa-java {
+    color: rgb(125, 173, 255);
+    font-weight: bold !important;
+}
+
+.accordion-item .fa-js {
+    color: rgb(239, 239, 55);
+}
+
+.accordion-item .fa-c {
+    color: rgb(181, 86, 249);
+}
+
+.accordion-item .fa-hashtag {
+    color: rgb(181, 86, 249);
+}
+
+.accordion-item .fa-database {
+    color: rgb(161, 161, 161);
+}
+
+.accordion .accordion-body {
+    font-size: 20px;
+}
+
+.aptitudesTitulo {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 500;
+    color: #004f74;
+    padding-top: 20px;
+}
+
+
+.aptitudesDescripcion li {
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.aptitudesDescripcion {
+    font-size: 25px;
+    padding: 40px;
+    font-weight: 500;
+    color: #004f74;
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+
+.aptitudes {
+    border-bottom: 3px solid #004f74;
+}
+
+.expLaboTitulo {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 500;
+    color: #004f74;
+    padding-top: 20px;
+}
+.expLaboSubTitulo{
+    font-size: 18px;
+    font-weight: 450;
+    color: #004f74;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.tituloLaburo {
+    font-size: 24px;
+    font-weight: 490;
+    color: #004f74;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 100px;
+}
+
+.primerlaburo {
+
+    font-size: 18px;
+    font-weight: 400;
+    color: #004f74;
+    padding-top:5.5%;
+    padding-left: 100px;
+    padding-bottom: 0px;
+}
+
+.primerlaburo li {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.segundolaburogral{    border: 1px solid #8dc6e0;
+}
+.segundolaburo {
+
+    font-size: 18px;
+    font-weight: 400;
+    color: #004f74;
+    padding-top:5.5%;
+    padding-left: 100px;
+    padding-bottom: 0px;
+}
+
+.segundolaburo li {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.primerlaburogral{    border: 1px solid #8dc6e0;
+}
