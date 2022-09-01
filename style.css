@@ -301,7 +301,9 @@ div.accordion .icon {
     color: rgb(181, 86, 249);
 }
 .accordion-item .fa-angular{
+
     color:crimson !important;
+    color:crimson;
 }
 
 .accordion-item .fa-database {
