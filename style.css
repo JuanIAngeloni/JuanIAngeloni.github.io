@@ -61,12 +61,19 @@ body {
 .title {
     color: #fff;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 750;
+    font-size: 4ch;
     text-align: start;
     letter-spacing: 1px;
     padding: 31px;
     position: relative;
 
+}
+.NombreLenguaje{
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 3ch;
 }
 
 .ContactoInfo {
@@ -85,8 +92,9 @@ body {
     position: relative;
     list-style: none;
     margin: 10px 0;
+    font-weight: 400;
     letter-spacing: 0.9px;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .ContactoInfo ul li .icon {
@@ -174,7 +182,7 @@ body {
 .Lenguaje ul li .icon {
     display: inline-block;
     width: 40px;
-    font-size: 18px;
+    font-size: 20px;
     color: rgb(108, 226, 140)
 }
 
@@ -182,7 +190,8 @@ body {
     color: rgba(220, 208, 208, 0.719);
     font-weight: 450;
     letter-spacing: 0.7px;
-    font-size: 0.8em;
+    font-weight: bold ;
+    font-size: 1em;
     position: relative;
 
     left: 15px;
@@ -265,13 +274,14 @@ div.accordion .icon {
     margin-left: 0px !important;
 
     width: 1081px;
-    font-size: 40px;
+    font-size: 55px;
     color: #29bbff;
     text-align: center;
 }
 
 .accordion-item .fa-html5 {
     color: rgb(196, 127, 0);
+    font-size: 70;
 }
 
 .accordion-item .fa-java {
@@ -290,6 +300,9 @@ div.accordion .icon {
 .accordion-item .fa-hashtag {
     color: rgb(181, 86, 249);
 }
+.accordion-item .fa-angular{
+    color:crimson;
+}
 
 .accordion-item .fa-database {
     color: rgb(161, 161, 161);
@@ -300,7 +313,7 @@ div.accordion .icon {
 }
 
 .aptitudesTitulo {
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
     font-weight: 500;
     color: #004f74;
