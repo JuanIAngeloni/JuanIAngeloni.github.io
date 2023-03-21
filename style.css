@@ -18,9 +18,10 @@ body {
 .container {
 
     position: relative;
-width: 100%;
     min-width: 70%;
     min-height: 50%;
+    max-width: 3000px;
+    max-height: 3000px;
     background: rgb(255, 255, 255);
     margin: 50px;
     display: grid;
